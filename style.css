@@ -98,6 +98,8 @@ footer{
     font-weight: bold;
 }
 
+
+
 /* Perangkat dengan lebar layar 1200px dan di bawahnya */
 @media screen and (max-width: 1200px) {
     main {
@@ -106,9 +108,13 @@ footer{
     main aside {
       align-self: center;
     }
+    #menu span{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-/* perangkay dengan lebar layar 768px dan di bawahnya */
+/* perangkat dengan lebar layar 768px dan di bawahnya */
 @media screen and(max-width: 76px){
     nav ul{
         justify-content: center;
